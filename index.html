@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title></title>
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Information</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-10 offset-1">
+                <img src="./profile.jpg" class="profile_pic">
+                <div id="header">
+                    <p id="name">Haris Kovacevic</p>
+                    <a href="mailto:haris_kovacevic1@hotmail.com" target="_blank">
+                        <p id="email">haris_kovacevic1@hotmail.com</p>
+                    </a>
+                    <p id="contact">+387 62 705 440</p>
+                    <p id="City">Visoko</p>
+                    <p id="Country">Bosnia and Herzegovina</p>
+                </div>
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h3>Education</h3>
+                    <p>
+                        <ul>
+                            <li>Primary school: Mehmedalija Mak Dizdar Dobrinje (2003 - 2012)</li>
+                            <li>High school: Gimnazija Visoko Visoko (2012 - 2016)</li>
+                            <li>University: International University of Sarajevo (2016 - )</li>
+                        </ul>
+                    </p>
+
+                    <h3>Professional Experience</h3>
+                    <p>
+                        <ul>
+                            <li>I don't have any professional experience yet.</li>
+                        </ul>
+                    </p>
+
+
+                    <h3>Personal Information:</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                I'm type of person that don't like to rush and do anything in hurry because at that time
+                                we make
+                                most mistakes. I like to take my time
+                            <li>
+                                <span id="course-name">Languages Known:</span>Bosnian, English</li>
+                            <li>
+                                <span id="course-name">Hobbies:</span>I play games to relax, also like to play sports
+                                like:
+                                football or voleyball,also like: listening music, surfing Internet, self-learning
+                                through online
+                                sites.</li>
+                        </ul>
+                    </p>
+                    <div id="footer"></div>
+                    <a href=""><i class="fa fa-linkedin-square" style="font-size:70px;"></i></a>
+                    <a href=""><i class="fa fa-facebook-square" style="font-size:70px;"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true" style="font-size:70px;"></i></a>
+                </div>
+                <div class="row">
+                    <div class="col-10 offset-1">
+                        <h4>Please leave your information bellow</h4>
+                        <hr>
+                        <section class="maincontent">
+                            <form name="test" class="form" action="ind.php" method="POST">
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                    <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone else.</small>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="first_name">First name</label>
+                                    <input type="first_name" class="form-control" id="first_name" name="first_name">
+                                </div>
+                                  <div class="form-group">
+                                    <label for="last_name">Last name</label>
+                                    <input type="last_name" class="form-control" id="last_name" name="last_name">
+                                </div>
+                                  <div class="form-group">
+                                    <label for="comment">Comment</label>
+                                    <textarea rows="10" cols="20" class="form-control" id="comment" name="comment">
+                                    </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+            <div id="galerija1">
+		
+                <div class="slideshow-container">
+        
+                    <div class="slajdovi fade">
+                      <div class="brojTeksta">1 / 5</div>
+                      <img src="Galerija/galerija1.jpg">
+                      <div class="opis">Some beautiful pictures</div>
+                    </div>
+                    
+                    <div class="slajdovi fade">
+                      <div class="brojTeksta">2 / 5</div>
+                      <img src="Galerija/galerija2.jpg">
+                      <div class="opis">Just so</div>
+                    </div>
+                    
+                    <div class="slajdovi fade">
+                      <div class="brojTeksta">3 / 5</div>
+                      <img src="Galerija/galerija3.jpg">
+                      <div class="opis">It can make</div>
+                    </div>
+        
+                    <div class="slajdovi fade">
+                            <div class="brojTeksta">4 / 5</div>
+                            <img src="Galerija/galerija4.jpg">
+                            <div class="opis">Your day better</div>
+                          </div>
+        
+                    
+                    </div>
+                    <br>
+                    
+        
+                </div>
+        
+        
+        
+        
+            </div>
+            <script src="java.js"></script>
+
+            <script src="./jquery-3.4.1.min.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $("#menu").click(function () {
+                        $("nav.nav_closed").toggleClass("nav_open");
+                    });
+                });
+            </script>
+</body>
+
+</html>
